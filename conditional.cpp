@@ -23,6 +23,21 @@ string Status_BMI(float BMI){
     else
         return "obesitas";
 }
+int main(){
+    float berat,tinggi,BMI;
+    
+    cout << "selamat datang mahasisawa kelas A 2025" <<endl;
 
+    inputData(berat,tinggi);
+
+    BMI = hitungBMI(berat,tinggi);
+
+    cout <<"\n--hasil--"<<endl;
+    
+   cout << "BMI anda = "<<BMI<<" ,status = "<<Status_BMI(BMI)<<endl;
+
+   return 0;
+
+}
 
 
