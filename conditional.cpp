@@ -14,5 +14,6 @@ float hitungBMI(float berat,float tinggi){
 }
 
 string Status_BMI(float BMI){
+    if (BMI < 18.5)
+        return "berat badan kurang";
     
-}
